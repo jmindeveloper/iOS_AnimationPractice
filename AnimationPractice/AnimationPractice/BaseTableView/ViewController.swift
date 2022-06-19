@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     
     private let tableView = UITableView()
     private let viewControllers: [TableViewData] = [
-        TableViewData(title: "탭한대로 뷰 이동", vc: TapAndMoveViewController())
+        TableViewData(title: "탭한대로 뷰 이동", vc: TapAndMoveViewController()),
+        TableViewData(title: "half modal", vc: HalfModalMainViewController())
     ]
     
 

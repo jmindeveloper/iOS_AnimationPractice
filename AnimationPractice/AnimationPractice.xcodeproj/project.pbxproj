@@ -12,9 +12,12 @@
 		0EBAF98F285DC94200693414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98E285DC94200693414 /* ViewController.swift */; };
 		0EBAF994285DC94400693414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF993285DC94400693414 /* Assets.xcassets */; };
 		0EBAF997285DC94400693414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBAF995285DC94400693414 /* LaunchScreen.storyboard */; };
-		0EBAF9A0285DC9F200693414 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0EBAF99F285DC9F200693414 /* SnapKit */; };
 		0EBAF9A3285DCA9A00693414 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF9A2285DCA9A00693414 /* BaseTableViewCell.swift */; };
 		0EBAF9A6285DCBC300693414 /* TapAndMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF9A5285DCBC300693414 /* TapAndMoveViewController.swift */; };
+		0ED2E04B285EE820009B2CE9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0ED2E04A285EE820009B2CE9 /* SnapKit */; };
+		0ED2E04E285EEF68009B2CE9 /* HalfModalMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E04D285EEF68009B2CE9 /* HalfModalMainViewController.swift */; };
+		0ED2E050285EF00F009B2CE9 /* Costant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E04F285EF00F009B2CE9 /* Costant.swift */; };
+		0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E052285EF358009B2CE9 /* HalfModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		0EBAF998285DC94400693414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EBAF9A2285DCA9A00693414 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		0EBAF9A5285DCBC300693414 /* TapAndMoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAndMoveViewController.swift; sourceTree = "<group>"; };
+		0ED2E04D285EEF68009B2CE9 /* HalfModalMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalMainViewController.swift; sourceTree = "<group>"; };
+		0ED2E04F285EF00F009B2CE9 /* Costant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costant.swift; sourceTree = "<group>"; };
+		0ED2E052285EF358009B2CE9 /* HalfModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EBAF9A0285DC9F200693414 /* SnapKit in Frameworks */,
+				0ED2E04B285EE820009B2CE9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,7 @@
 		0EBAF989285DC94200693414 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0ED2E04C285EEF28009B2CE9 /* HalfModal */,
 				0EBAF9A4285DCBB100693414 /* TapAndMove */,
 				0EBAF9A1285DCA8800693414 /* BaseTableView */,
 				0EBAF98A285DC94200693414 /* AppDelegate.swift */,
@@ -67,6 +74,7 @@
 				0EBAF993285DC94400693414 /* Assets.xcassets */,
 				0EBAF995285DC94400693414 /* LaunchScreen.storyboard */,
 				0EBAF998285DC94400693414 /* Info.plist */,
+				0ED2E04F285EF00F009B2CE9 /* Costant.swift */,
 			);
 			path = AnimationPractice;
 			sourceTree = "<group>";
@@ -88,6 +96,15 @@
 			path = TapAndMove;
 			sourceTree = "<group>";
 		};
+		0ED2E04C285EEF28009B2CE9 /* HalfModal */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2E04D285EEF68009B2CE9 /* HalfModalMainViewController.swift */,
+				0ED2E052285EF358009B2CE9 /* HalfModalViewController.swift */,
+			);
+			path = HalfModal;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,7 +122,7 @@
 			);
 			name = AnimationPractice;
 			packageProductDependencies = (
-				0EBAF99F285DC9F200693414 /* SnapKit */,
+				0ED2E04A285EE820009B2CE9 /* SnapKit */,
 			);
 			productName = AnimationPractice;
 			productReference = 0EBAF987285DC94200693414 /* AnimationPractice.app */;
@@ -136,7 +153,7 @@
 			);
 			mainGroup = 0EBAF97E285DC94200693414;
 			packageReferences = (
-				0EBAF99E285DC9F200693414 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0ED2E049285EE820009B2CE9 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 0EBAF988285DC94200693414 /* Products */;
 			projectDirPath = "";
@@ -166,9 +183,12 @@
 			files = (
 				0EBAF9A3285DCA9A00693414 /* BaseTableViewCell.swift in Sources */,
 				0EBAF98F285DC94200693414 /* ViewController.swift in Sources */,
+				0ED2E050285EF00F009B2CE9 /* Costant.swift in Sources */,
+				0ED2E04E285EEF68009B2CE9 /* HalfModalMainViewController.swift in Sources */,
 				0EBAF98B285DC94200693414 /* AppDelegate.swift in Sources */,
 				0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */,
 				0EBAF9A6285DCBC300693414 /* TapAndMoveViewController.swift in Sources */,
+				0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -290,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -378,7 +398,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0EBAF99E285DC9F200693414 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		0ED2E049285EE820009B2CE9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -389,9 +409,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0EBAF99F285DC9F200693414 /* SnapKit */ = {
+		0ED2E04A285EE820009B2CE9 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0EBAF99E285DC9F200693414 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 0ED2E049285EE820009B2CE9 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
