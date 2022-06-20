@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EAB6BA2286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */; };
+		0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */; };
+		0EAB6BA72860426F007A6C4F /* TableViewSectionDropDownItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */; };
 		0EBAF98B285DC94200693414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98A285DC94200693414 /* AppDelegate.swift */; };
 		0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98C285DC94200693414 /* SceneDelegate.swift */; };
 		0EBAF98F285DC94200693414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98E285DC94200693414 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownMainViewController.swift; sourceTree = "<group>"; };
+		0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownSectionCell.swift; sourceTree = "<group>"; };
+		0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownItemCell.swift; sourceTree = "<group>"; };
 		0EBAF987285DC94200693414 /* AnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBAF98A285DC94200693414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBAF98C285DC94200693414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */,
+				0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */,
+				0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */,
+			);
+			path = TableViewSectionDropDown;
+			sourceTree = "<group>";
+		};
 		0EBAF97E285DC94200693414 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +82,7 @@
 		0EBAF989285DC94200693414 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */,
 				0ED2E04C285EEF28009B2CE9 /* HalfModal */,
 				0EBAF9A4285DCBB100693414 /* TapAndMove */,
 				0EBAF9A1285DCA8800693414 /* BaseTableView */,
@@ -183,9 +200,12 @@
 			files = (
 				0EBAF9A3285DCA9A00693414 /* BaseTableViewCell.swift in Sources */,
 				0EBAF98F285DC94200693414 /* ViewController.swift in Sources */,
+				0EAB6BA72860426F007A6C4F /* TableViewSectionDropDownItemCell.swift in Sources */,
 				0ED2E050285EF00F009B2CE9 /* Costant.swift in Sources */,
 				0ED2E04E285EEF68009B2CE9 /* HalfModalMainViewController.swift in Sources */,
+				0EAB6BA2286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift in Sources */,
 				0EBAF98B285DC94200693414 /* AppDelegate.swift in Sources */,
+				0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */,
 				0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */,
 				0EBAF9A6285DCBC300693414 /* TapAndMoveViewController.swift in Sources */,
 				0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */,
