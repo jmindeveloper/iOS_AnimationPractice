@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5336202862DA9500FE9A78 /* CircularProgressBarMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53361F2862DA9500FE9A78 /* CircularProgressBarMainViewController.swift */; };
+		0E5336222862DBF000FE9A78 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5336212862DBF000FE9A78 /* CircularProgressBarView.swift */; };
 		0EAB6BA2286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */; };
 		0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */; };
 		0EAB6BA72860426F007A6C4F /* TableViewSectionDropDownItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E53361F2862DA9500FE9A78 /* CircularProgressBarMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarMainViewController.swift; sourceTree = "<group>"; };
+		0E5336212862DBF000FE9A78 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
 		0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownMainViewController.swift; sourceTree = "<group>"; };
 		0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownSectionCell.swift; sourceTree = "<group>"; };
 		0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownItemCell.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E53361E2862DA7B00FE9A78 /* CircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E53361F2862DA9500FE9A78 /* CircularProgressBarMainViewController.swift */,
+				0E5336212862DBF000FE9A78 /* CircularProgressBarView.swift */,
+			);
+			path = CircularProgressBar;
+			sourceTree = "<group>";
+		};
 		0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +95,7 @@
 		0EBAF989285DC94200693414 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0E53361E2862DA7B00FE9A78 /* CircularProgressBar */,
 				0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */,
 				0ED2E04C285EEF28009B2CE9 /* HalfModal */,
 				0EBAF9A4285DCBB100693414 /* TapAndMove */,
@@ -207,6 +221,8 @@
 				0EBAF98B285DC94200693414 /* AppDelegate.swift in Sources */,
 				0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */,
 				0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */,
+				0E5336202862DA9500FE9A78 /* CircularProgressBarMainViewController.swift in Sources */,
+				0E5336222862DBF000FE9A78 /* CircularProgressBarView.swift in Sources */,
 				0EBAF9A6285DCBC300693414 /* TapAndMoveViewController.swift in Sources */,
 				0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */,
 			);

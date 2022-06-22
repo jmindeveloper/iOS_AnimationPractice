@@ -39,7 +39,7 @@ final class HalfModalViewController: UIViewController {
     // MARK: - Properties
     let defaultHeight: CGFloat = 350
     let dismissHeight: CGFloat = 200
-    let maximumHeight: CGFloat = screenFrame.height - safeAreaInsets.top - 30
+    let maximumHeight: CGFloat = screenFrame.height - safeAreaInset.top - 30
     lazy var currentHeight: CGFloat = defaultHeight
     
     // MARK: - LifeCycle

@@ -7,7 +7,7 @@
 
 import UIKit
 
-var safeAreaInsets: UIEdgeInsets {
+var safeAreaInset: UIEdgeInsets {
     if #available(iOS 15.0, *) {
         let window = UIApplication.shared.connectedScenes
             .map { $0 as? UIWindowScene }
