@@ -23,7 +23,6 @@ final class CircularProgressBarMainViewController: UIViewController {
     }
     
     func setUpCircularProgressBarView() {
-        circularProgressBarView = nil
         circularProgressBarView = CircularProgressBarView(frame: .zero)
         circularProgressBarView?.center = view.center
         circularProgressBarView?.progressAnimation(duration: 2)

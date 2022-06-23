@@ -12,6 +12,7 @@
 		0EAB6BA2286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */; };
 		0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */; };
 		0EAB6BA72860426F007A6C4F /* TableViewSectionDropDownItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */; };
+		0EADF6952864362B0017B228 /* InteractiveMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADF6942864362B0017B228 /* InteractiveMainViewController.swift */; };
 		0EBAF98B285DC94200693414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98A285DC94200693414 /* AppDelegate.swift */; };
 		0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98C285DC94200693414 /* SceneDelegate.swift */; };
 		0EBAF98F285DC94200693414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAF98E285DC94200693414 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 		0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownMainViewController.swift; sourceTree = "<group>"; };
 		0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownSectionCell.swift; sourceTree = "<group>"; };
 		0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownItemCell.swift; sourceTree = "<group>"; };
+		0EADF6942864362B0017B228 /* InteractiveMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveMainViewController.swift; sourceTree = "<group>"; };
 		0EBAF987285DC94200693414 /* AnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBAF98A285DC94200693414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBAF98C285DC94200693414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 			path = TableViewSectionDropDown;
 			sourceTree = "<group>";
 		};
+		0EADF693286436190017B228 /* Interactive animation */ = {
+			isa = PBXGroup;
+			children = (
+				0EADF6942864362B0017B228 /* InteractiveMainViewController.swift */,
+			);
+			path = "Interactive animation";
+			sourceTree = "<group>";
+		};
 		0EBAF97E285DC94200693414 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		0EBAF989285DC94200693414 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0EADF693286436190017B228 /* Interactive animation */,
 				0E53361E2862DA7B00FE9A78 /* CircularProgressBar */,
 				0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */,
 				0ED2E04C285EEF28009B2CE9 /* HalfModal */,
@@ -222,6 +233,7 @@
 				0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */,
 				0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */,
 				0E5336202862DA9500FE9A78 /* CircularProgressBarMainViewController.swift in Sources */,
+				0EADF6952864362B0017B228 /* InteractiveMainViewController.swift in Sources */,
 				0E5336222862DBF000FE9A78 /* CircularProgressBarView.swift in Sources */,
 				0EBAF9A6285DCBC300693414 /* TapAndMoveViewController.swift in Sources */,
 				0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */,
