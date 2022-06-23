@@ -152,7 +152,6 @@ final class InteractiveMainViewController: UIViewController {
             }
             // 일시정지돼있는 애니메이션의 지속시간을 바꿀거임ㅇㅇ (애니메이션 실행)
             interactiveAnimation.continueAnimation(withTimingParameters: UICubicTimingParameters(animationCurve: .linear), durationFactor: 0.2)
-            interactiveAnimation.pauseAnimation()
         case .cancelled:
             interactiveAnimation.pauseAnimation()
             interactiveAnimation.stopAnimation(false)

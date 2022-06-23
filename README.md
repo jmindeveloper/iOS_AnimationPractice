@@ -1,2 +1,3 @@
 # iOS_AnimationPractice
-애니메이션연습할거임ㅇㅇ
+
+## 탭해서 뷰 이동
