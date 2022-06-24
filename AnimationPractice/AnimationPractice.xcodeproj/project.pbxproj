@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0E5336202862DA9500FE9A78 /* CircularProgressBarMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53361F2862DA9500FE9A78 /* CircularProgressBarMainViewController.swift */; };
 		0E5336222862DBF000FE9A78 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5336212862DBF000FE9A78 /* CircularProgressBarView.swift */; };
+		0E6A46DF28656B530009630D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A46DE28656B530009630D /* CustomTabBarController.swift */; };
+		0E6A46E128656B930009630D /* CustomTabViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A46E028656B930009630D /* CustomTabViewController1.swift */; };
+		0E6A46E328656BD20009630D /* CustomTabViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A46E228656BD20009630D /* CustomTabViewController2.swift */; };
+		0E6A46E528656BE40009630D /* CustomTabViweController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A46E428656BE40009630D /* CustomTabViweController3.swift */; };
 		0EAB6BA2286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */; };
 		0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */; };
 		0EAB6BA72860426F007A6C4F /* TableViewSectionDropDownItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */; };
@@ -29,6 +33,10 @@
 /* Begin PBXFileReference section */
 		0E53361F2862DA9500FE9A78 /* CircularProgressBarMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarMainViewController.swift; sourceTree = "<group>"; };
 		0E5336212862DBF000FE9A78 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		0E6A46DE28656B530009630D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		0E6A46E028656B930009630D /* CustomTabViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController1.swift; sourceTree = "<group>"; };
+		0E6A46E228656BD20009630D /* CustomTabViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController2.swift; sourceTree = "<group>"; };
+		0E6A46E428656BE40009630D /* CustomTabViweController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViweController3.swift; sourceTree = "<group>"; };
 		0EAB6BA1286040AC007A6C4F /* TableViewSectionDropDownMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownMainViewController.swift; sourceTree = "<group>"; };
 		0EAB6BA3286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownSectionCell.swift; sourceTree = "<group>"; };
 		0EAB6BA62860426F007A6C4F /* TableViewSectionDropDownItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionDropDownItemCell.swift; sourceTree = "<group>"; };
@@ -68,6 +76,17 @@
 			path = CircularProgressBar;
 			sourceTree = "<group>";
 		};
+		0E6A46DD28656B2F0009630D /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E6A46DE28656B530009630D /* CustomTabBarController.swift */,
+				0E6A46E028656B930009630D /* CustomTabViewController1.swift */,
+				0E6A46E228656BD20009630D /* CustomTabViewController2.swift */,
+				0E6A46E428656BE40009630D /* CustomTabViweController3.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +124,7 @@
 		0EBAF989285DC94200693414 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0E6A46DD28656B2F0009630D /* CustomTabBar */,
 				0EADF693286436190017B228 /* Interactive animation */,
 				0E53361E2862DA7B00FE9A78 /* CircularProgressBar */,
 				0EAB6BA028604066007A6C4F /* TableViewSectionDropDown */,
@@ -225,6 +245,7 @@
 			files = (
 				0EBAF9A3285DCA9A00693414 /* BaseTableViewCell.swift in Sources */,
 				0EBAF98F285DC94200693414 /* ViewController.swift in Sources */,
+				0E6A46DF28656B530009630D /* CustomTabBarController.swift in Sources */,
 				0EAB6BA72860426F007A6C4F /* TableViewSectionDropDownItemCell.swift in Sources */,
 				0ED2E050285EF00F009B2CE9 /* Costant.swift in Sources */,
 				0ED2E04E285EEF68009B2CE9 /* HalfModalMainViewController.swift in Sources */,
@@ -233,8 +254,11 @@
 				0EAB6BA4286041CA007A6C4F /* TableViewSectionDropDownSectionCell.swift in Sources */,
 				0EBAF98D285DC94200693414 /* SceneDelegate.swift in Sources */,
 				0E5336202862DA9500FE9A78 /* CircularProgressBarMainViewController.swift in Sources */,
+				0E6A46E328656BD20009630D /* CustomTabViewController2.swift in Sources */,
+				0E6A46E128656B930009630D /* CustomTabViewController1.swift in Sources */,
 				0EADF6952864362B0017B228 /* InteractiveMainViewController.swift in Sources */,
 				0E5336222862DBF000FE9A78 /* CircularProgressBarView.swift in Sources */,
+				0E6A46E528656BE40009630D /* CustomTabViweController3.swift in Sources */,
 				0EBAF9A6285DCBC300693414 /* TapAndMoveViewController.swift in Sources */,
 				0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */,
 			);
