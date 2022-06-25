@@ -128,7 +128,7 @@ final class CustomTabBarController: UITabBarController {
             $0.centerX.equalTo(sender)
         }
         
-        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut) {
+        UIView.animate(withDuration: 0.15, delay: 0, options: .curveEaseOut) {
             self.view.layoutIfNeeded()
         }
     }

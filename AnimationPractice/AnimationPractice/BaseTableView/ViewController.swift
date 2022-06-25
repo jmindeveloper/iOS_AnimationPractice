@@ -21,7 +21,8 @@ class ViewController: UIViewController {
         TableViewData(title: "테이블뷰 드롭다운", vc: TableViewSectionDropDownMainViewController()),
         TableViewData(title: "원형 프로그레스바", vc: CircularProgressBarMainViewController()),
         TableViewData(title: "Interactive Animation", vc: InteractiveMainViewController()),
-        TableViewData(title: "CustomTabBar", vc: CustomTabBarController())
+        TableViewData(title: "CustomTabBar", vc: CustomTabBarController()),
+        TableViewData(title: "상단탭바", vc: TopTabBarMainController())
     ]
     
 
