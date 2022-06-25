@@ -14,3 +14,9 @@
 
 ## interactive Animation
 <img src = "https://github.com/jmindeveloper/iOS_AnimationPractice/blob/main/Image/interactiveAnimation.gif" width = "200" height = "400">
+
+## CustomTabBar
+<img src = "https://github.com/jmindeveloper/iOS_AnimationPractice/blob/main/Image/CustomTabBar.gif" width = "200" height = "400">
+
+## 상단탭바
+<img src = "https://github.com/jmindeveloper/iOS_AnimationPractice/blob/main/Image/상단탭바.gif" width = "200" height = "400">
