@@ -84,7 +84,8 @@ final class TopTabBarMainController: UIViewController {
         view.backgroundColor = .systemBackground
         view.addSubview(topTabBar)
         view.addSubview(contentView)
-        [firstItem, secondItem, thirdItem, tabItemSelectedIndicator].forEach { topTabBar.addSubview($0) }
+        view.addSubview(tabItemSelectedIndicator)
+        [firstItem, secondItem, thirdItem].forEach { topTabBar.addSubview($0) }
         [firstView, secondView, thirdView].forEach { contentView.addSubview($0) }
         configureConstraints()
         firstItem.isSelected = true

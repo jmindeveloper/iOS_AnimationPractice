@@ -22,7 +22,8 @@ class ViewController: UIViewController {
         TableViewData(title: "원형 프로그레스바", vc: CircularProgressBarMainViewController()),
         TableViewData(title: "Interactive Animation", vc: InteractiveMainViewController()),
         TableViewData(title: "CustomTabBar", vc: CustomTabBarController()),
-        TableViewData(title: "상단탭바", vc: TopTabBarMainController())
+        TableViewData(title: "상단탭바", vc: TopTabBarMainController()),
+        TableViewData(title: "CAKeyFrameAnimation", vc: CAKeyFrameAnimationMainViewController())
     ]
     
 

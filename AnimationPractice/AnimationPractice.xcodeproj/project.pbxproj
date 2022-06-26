@@ -28,6 +28,7 @@
 		0ED2E04E285EEF68009B2CE9 /* HalfModalMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E04D285EEF68009B2CE9 /* HalfModalMainViewController.swift */; };
 		0ED2E050285EF00F009B2CE9 /* Costant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E04F285EF00F009B2CE9 /* Costant.swift */; };
 		0ED2E053285EF358009B2CE9 /* HalfModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E052285EF358009B2CE9 /* HalfModalViewController.swift */; };
+		0EE5837D28682E5500EE5DF2 /* CAKeyFrameAnimationMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5837C28682E5500EE5DF2 /* CAKeyFrameAnimationMainViewController.swift */; };
 		0EEB82302866D407009D1171 /* TopTabBarMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB822F2866D407009D1171 /* TopTabBarMainController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		0ED2E04D285EEF68009B2CE9 /* HalfModalMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalMainViewController.swift; sourceTree = "<group>"; };
 		0ED2E04F285EF00F009B2CE9 /* Costant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costant.swift; sourceTree = "<group>"; };
 		0ED2E052285EF358009B2CE9 /* HalfModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalViewController.swift; sourceTree = "<group>"; };
+		0EE5837C28682E5500EE5DF2 /* CAKeyFrameAnimationMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAKeyFrameAnimationMainViewController.swift; sourceTree = "<group>"; };
 		0EEB822F2866D407009D1171 /* TopTabBarMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarMainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 		0EBAF989285DC94200693414 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0EE5837B28682E4200EE5DF2 /* CAKeyFrameAnimation */,
 				0EEB822E2866D3F9009D1171 /* TopTabBar */,
 				0E6A46DD28656B2F0009630D /* CustomTabBar */,
 				0EADF693286436190017B228 /* Interactive animation */,
@@ -168,6 +171,14 @@
 				0ED2E052285EF358009B2CE9 /* HalfModalViewController.swift */,
 			);
 			path = HalfModal;
+			sourceTree = "<group>";
+		};
+		0EE5837B28682E4200EE5DF2 /* CAKeyFrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5837C28682E5500EE5DF2 /* CAKeyFrameAnimationMainViewController.swift */,
+			);
+			path = CAKeyFrameAnimation;
 			sourceTree = "<group>";
 		};
 		0EEB822E2866D3F9009D1171 /* TopTabBar */ = {
@@ -268,6 +279,7 @@
 				0E6A46E328656BD20009630D /* CustomTabViewController2.swift in Sources */,
 				0E6A46E128656B930009630D /* CustomTabViewController1.swift in Sources */,
 				0EADF6952864362B0017B228 /* InteractiveMainViewController.swift in Sources */,
+				0EE5837D28682E5500EE5DF2 /* CAKeyFrameAnimationMainViewController.swift in Sources */,
 				0EEB82302866D407009D1171 /* TopTabBarMainController.swift in Sources */,
 				0E5336222862DBF000FE9A78 /* CircularProgressBarView.swift in Sources */,
 				0E6A46E528656BE40009630D /* CustomTabViweController3.swift in Sources */,
